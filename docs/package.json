@@ -1,0 +1,26 @@
+{
+  "name": "instaview_docs",
+  "version": "1.0.0",
+  "description": "Documentation site for instaview project.",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianhaoz95/instaview.git"
+  },
+  "keywords": [
+    "docs"
+  ],
+  "author": "Tianhao Zhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tianhaoz95/instaview/issues"
+  },
+  "homepage": "https://github.com/tianhaoz95/instaview#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  }
+}
