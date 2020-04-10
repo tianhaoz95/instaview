@@ -20,8 +20,12 @@ echo "Formatting markdown files ..."
 prettier --write \
   "README.md" \
   "CODE_OF_CONDUCT.md" \
-  "app/**/*.md" \
+  "app/README.md" \
   "docs/docs/**/*.md"
+
+echo "Formatting workflow configs ..."
+
+prettier --write ".github/workflows/*.yml"
 
 echo "Formatting TypeScript files ..."
 

@@ -1,6 +1,5 @@
 tasks:
   - init: ./scripts/initialize_workspace.sh
-    command:
-      echo "welcome!"
+    command: echo "welcome!"
 image:
   file: .gitpod.Dockerfile

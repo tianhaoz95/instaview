@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1097064979495",
+    "firebase_url": "https://instaview-app.firebaseio.com",
+    "project_id": "instaview-app",
+    "storage_bucket": "instaview-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097064979495:android:07b9826a6183cd6c90c202",
+        "android_client_info": {
+          "package_name": "com.instaview.instaviewapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097064979495-aai3cnp04a1202dpo7t9rvv39219l1as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1yfxz4H22EmDOuVfZNYMb215zhCtH0Aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097064979495-aai3cnp04a1202dpo7t9rvv39219l1as.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1097064979495-et0ej29vk85nddh0u6b110lr6dtp4o9k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.instaview.instaviewapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

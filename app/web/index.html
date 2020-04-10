@@ -28,6 +28,27 @@
       });
     }
   </script>
+  <!-- This is the Firebase SDK packages -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-functions.js"></script>
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyDBOvwNtfYn_Ke8W5mGifWvrbhSiiI76Yw",
+      authDomain: "instaview-app.firebaseapp.com",
+      databaseURL: "https://instaview-app.firebaseio.com",
+      projectId: "instaview-app",
+      storageBucket: "instaview-app.appspot.com",
+      messagingSenderId: "1097064979495",
+      appId: "1:1097064979495:web:d7270e42251f610290c202",
+      measurementId: "G-M8C1SLFNQT"
+    };
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+  <!-- This is the Flutter SDK -->
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>

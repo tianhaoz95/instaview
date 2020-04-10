@@ -24,6 +24,10 @@ if (flutterVersionName == null) {
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+// This is used by Firebase core
+apply plugin: 'com.google.gms.google-services'
+// This is used by Firebase crashlytics
+apply plugin: 'io.fabric'
 
 android {
     compileSdkVersion 28
@@ -37,9 +41,8 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.example.instaview"
-        minSdkVersion 16
+        applicationId "com.instaview.instaviewapp"
+        minSdkVersion 21
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
